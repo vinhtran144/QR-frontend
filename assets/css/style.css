@@ -4,14 +4,32 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #d5e1ef;
+  margin: 0;
 }
 #qrcontainer {
   background-color: #fff;
   width: 320px;
-  border-radius: 8%;
+  border-radius: 10px;
 }
 #qrcode {
   width: 288px;
   padding: 16px;
   border-radius: 8%;
+}
+#textbox {
+  padding: 16px;
+  padding-top: 0;
+}
+#textbox h1 {
+  font: bold 22px Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  color: #1f314f;
+}
+#textbox p {
+  font: normal 15px Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  color: #7d889e;
+  padding: 16px;
 }

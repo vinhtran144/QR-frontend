@@ -4,20 +4,37 @@ light-grey = #D5E1EF
 white = #FFFFFF
 container-width = 320
 
+custom-text(size, weight, text-color)
+    font weight size Arial, sans-serif
+    text-align: center 
+    margin: 0
+    color: text-color
+
 body
     height: 100svh
     display: flex
     justify-content: center
     align-items: center
     background-color: light-grey
+    margin: 0
 
 #qrcontainer
     background-color: white
     width: unit(container-width, 'px')
-    border-radius: 8%
+    border-radius: 10px
 
 #qrcode
     width: unit(container-width*0.9, px)
     padding: unit(container-width*0.05, px)
     border-radius: 8%
+
+#textbox
+    padding: unit(container-width*0.05, px)
+    padding-top: 0
     
+#textbox h1
+    custom-text(22px,bold,dark-navy)
+
+#textbox p
+    custom-text(15px,normal,grey)
+    padding: unit(container-width*0.05, px)
