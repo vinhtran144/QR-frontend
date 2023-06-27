@@ -1,3 +1,17 @@
 body {
-  color: #fff;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5e1ef;
+}
+#qrcontainer {
+  background-color: #fff;
+  width: 320px;
+  border-radius: 8%;
+}
+#qrcode {
+  width: 288px;
+  padding: 16px;
+  border-radius: 8%;
 }
